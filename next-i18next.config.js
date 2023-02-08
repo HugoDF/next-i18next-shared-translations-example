@@ -12,6 +12,8 @@ module.exports = {
   localePath(locale, namespace) {
     if (namespace === 'footer') {
       return `./non-public/locales/${locale}/${namespace}.json`;
+      // following only works if you run `dev:setup` and have the `cp` utility available
+      // return `./node_modules/@example/locales/${locale}/${namespace}.json`;
     }
     return `./public/locales/${locale}/${namespace}.json`;
   },
