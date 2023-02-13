@@ -8,7 +8,7 @@
 import 'i18next'
 
 import type common from '../public/locales/en/common.json'
-import type footer from '../public/locales/en/footer.json'
+import type footer from '../non-public/locales/en/footer.json'
 import type secondPage from '../public/locales/en/second-page.json'
 
 interface I18nNamespaces {
